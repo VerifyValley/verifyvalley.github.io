@@ -1,7 +1,7 @@
 
 
 // var bitcoin = require('bitcoinjs-lib') // v4.x.x
-const bitcoinMessage = require('bitcoinjs-message')
+// const bitcoinMessage = require('bitcoinjs-message')
 
 var message;
 var address;

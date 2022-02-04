@@ -44,7 +44,7 @@
                         </a>
                     </li>
                     <li class="col nav-item my-2 mb-lg-0">
-                        <a class="nav-link px-2 mt-1 btn btn-secondary" href="https://github.com/Panda-Face/" title="Github repositories of Verify Valley" target="_blank">
+                        <a class="nav-link px-2 mt-1 btn btn-secondary" href="https://github.com/verifyvalley/" title="Github repositories of Verify Valley" target="_blank">
                             <i data-feather="github" class="mr-2"></i>VerifyValley Github
                         </a>
                     </li>
@@ -55,13 +55,25 @@
     <section class="py-2 bg-primary mt-5">
     	<div class="container mt-4 py-2">
 			<h1 class="text-white">
-	    		Signature Verification
+	    		Vérification d'une Signature
 	    	</h1>
     	</div>
     </section>
     <main class="mt-4" role="main">
         <div class="container">
-        	<div class="row mb-5">
+            <h3>Service</h3>
+            <p>
+                Le formulaire ci-dessous permet(tra) de vérifier la validiter d'une signature bitcoin.
+            </p>
+            <p>
+                Pour cela, les libraires <a href="https://github.com/bitcoinjs/bitcoinjs-lib" target="_blank" rel="nofollow">BitcoinJS</a> et <a href="https://github.com/bitcoinjs/bitcoinjs-message" target="_blank" rel="nofollow">BitcoinJS-message</a> sont utilisées en local = directement sur votre navigateur.
+            </p>
+            <h3>Protection des données privées</h3>
+            <p>
+                La vérification est effectuée intégralement sur votre navigateur (standalone page).<br/>
+                Aucune donnée n'est enregistrée. Toutes les données restent exclusivement sur votre navigateur.
+            </p>
+        	<div class="row my-5">
                 <div class="col-md-8 mx-auto">
                     <div class="card shadow p-5">
                         <form id="signature_verify" action="" method="POST">   
@@ -111,8 +123,8 @@
     <script type="text/javascript" src="../../js/feather.min.js"></script>
     <script type="text/javascript" src="../../js/main.js"></script>
 
-    <!-- <script type="text/javascript" src="../../js/bitcoinjs/bitcoinjs-0.2.0.min.js"></script> -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bitcoinjs-lib/0.2.0/bitcoinjs-min.js"></script>
+    <script type="text/javascript" src="../../js/bitcoinjs/bitcoinjs-0.2.0.min.js"></script>
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bitcoinjs-lib/0.2.0/bitcoinjs-min.js"></script> -->
     <script type="text/javascript" src="../../js/bitcoinjs/bitcoinjs-message-2.2.0.js"></script>
     <script type="text/javascript" src="../../js/verify_signature.js"></script>
 </body>

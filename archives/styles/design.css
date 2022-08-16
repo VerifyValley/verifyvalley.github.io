@@ -1,0 +1,125 @@
+﻿
+:root {
+    --primary:#0DA94C;
+    --primary-hover:#1EBA5D;
+
+    --secondary:#ffcc00;
+    --secondary-hover:#ddaa00;
+
+    --muted:#555555;
+}
+
+/* Font Ubuntu */
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('./fonts/ubuntu/Ubuntu-Light.ttf') format('truetype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('./fonts/ubuntu/Ubuntu-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('./fonts/ubuntu/Ubuntu-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+
+h1, h2, h3, h4, h5, h6, label {
+  color: var(--muted);
+}
+
+.text-muted {
+  color: var(--muted);
+}
+.text-primary {
+  color: var(--primary);
+}
+.text-secondary {
+  color: var(--secondary);
+}
+
+.bg-primary {
+  background-color: var(--primary) !important;
+}
+.bg-secondary {
+  background-color: var(--secondary) !important;
+}
+
+.btn-primary {
+  background-color: var(--primary) !important;
+  color: white;
+  border: none !important;
+}
+.btn-primary:hover {
+  background-color: var(--primary-hover) !important;
+  border: none !important;
+}
+.btn-secondary {
+  background-color: var(--secondary) !important;
+  color: white;
+  border: none !important;
+}
+.btn-secondary:hover {
+  background-color: var(--secondary-hover) !important;
+  border: none !important;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+a {
+	color: var(--primary);
+}
+a:hover {
+	color: var(--primary-hover);
+}
+
+p {
+  text-align: justify;
+}
+
+
+header ul.nav li.nav-item a.nav-link {
+	border-bottom : 3px solid transparent;
+}
+header ul.nav li.nav-item a.nav-link.active {
+  color: var(--primary-hover) !important;
+  border-bottom : 3px solid var(--primary-hover);
+}
+
+header ul.nav li.nav-item a.nav-link:hover {
+	border-bottom : 3px solid var(--primary-hover);
+}
+
+
+aside nav a.nav-link{
+  color: var(--muted) !important;
+}
+aside nav a.nav-link:hover{
+  color: var(--primary-hover) !important;
+}
+aside nav a.nav-link.active{
+  color: var(--primary) !important;
+  border-color: var(--primary) !important;
+}
+
+.flag {
+  border-radius: 2px; 
+  margin-top: -2px !important;
+  height: 15px;
+  max-width: 25px !important;
+  border: 1px solid #eee;
+}
+
+.icon{
+  height: 32px;
+  width: 32px;
+}

@@ -2,6 +2,8 @@
 
 Les modifications doivent se faire dans `themes/raditian/data`
 
+Thème: [raditian](https://github.com/radity/raditian-free-hugo-theme)
+
 
 ## Utilisation - Docker
 

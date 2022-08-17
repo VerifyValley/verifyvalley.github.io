@@ -3,7 +3,7 @@
 Les modifications doivent se faire dans `themes/raditian/data`
 
 
-## Docker - Utilisation
+## Utilisation - Docker
 
 Pré-requis [docker](https://docs.docker.com/engine/install/) et [docker compose](https://docs.docker.com/compose/install/)
 

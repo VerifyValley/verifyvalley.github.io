@@ -1,3 +1,5 @@
+[![Deploy Hugo site to Pages](https://github.com/VerifyValley/verifyvalley.github.io/actions/workflows/pages.yml/badge.svg)](https://github.com/VerifyValley/verifyvalley.github.io/actions/workflows/pages.yml)
+
 # verifyvalley.github.io
 
 Les modifications doivent se faire dans `themes/raditian/data`

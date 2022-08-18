@@ -6,13 +6,7 @@ showcase:
   description: "la VerifyValley est un ensemble d'entreprises et d'acteurs économiques, réunis autour du développement des crypto-monnaies, dont bitcoin, dans le Canton de Neuchâtel.
 
 Grâce au dynamisme de Bity et aux services proposés par la BCN (Banque Cantonale Neuchâteloise), de nombreuses entreprises sont venues se développer à Neuchâtel et ses environs.
-
-Le présent site a pour objectif de présenter :
-- Les entreprises constituant cet écosystème, ayant leurs sièges ou un bureau à Neuchâtel
-- Faciliter l'accès aux offres d'emplois, aussi bien pour les entreprises que pour les candidats
-- Informer sur les événements organisés par ces entreprises (Conférences, Meet-up, Banquets du Coin, ...)
-
-Ce site se souhaite ouvert (license MIT) et collaboratif (proposition de contenu via Github)."
+"
   image:
     x: "img/showcase/showcase.png"
     _2x: "img/showcase/showcase@2x.png"
@@ -22,7 +16,7 @@ Ce site se souhaite ouvert (license MIT) et collaboratif (proposition de contenu
   button:
     icon: "icon-mail-fill"
     btnText: "Contact"
-    URL: "https://radity.com/en/contact/"
+    URL: "https://verifyvalley.ch/contact"
 
   socialLinks:
 
@@ -33,28 +27,21 @@ Ce site se souhaite ouvert (license MIT) et collaboratif (proposition de contenu
 # about
 about:
   enable: true
-  title: "Who am I?"
-  content: '<p class="lead">
-    I am back, after a few days of vacationing with family. Weather was awesome, the beach was
-    full of nasty jelly-fish, yuk! All-in-all, life has been good. I hope life has been as
-    good for all of you.
-    </p>
-    <p class="lead">
-    My area of focus lies in designing web and mobile products, user research as well as
-    leading of design & front-end teams. I enjoy designing and coding the UI as much as
-    talking with users to iterate and improve the experiences that reach business goals.
-    </p>'
-  button:
-    icon: "icon-smile-fill"
-    btnText: "About Me"
-    URL: "https://www.linkedin.com/company/radity/"
+  title: "Objectifs"
+  content:  "Le présent site a pour objectif de présenter :
+      <ul>
+      <li>Les entreprises constituant cet écosystème, ayant leurs sièges ou un bureau à Neuchâtel</li>
+      <li>Faciliter l'accès aux offres d'emplois, aussi bien pour les entreprises que pour les candidats</li>
+      <li>Informer sur les événements organisés par ces entreprises (Conférences, Meet-up, Banquets du Coin, ...)</li>
+      </ul>
+      Ce site se souhaite ouvert (license MIT) et collaboratif (proposition de contenu via Github)."
   image:
-    x: "img/who-am-i/user-picture.png"
-    _2x: "img/who-am-i/user-picture@2x.png"
+    x: "img/verifyvalley.jpg"
+    _2x: "img/verifyvalley@2x.jpg"
 
 # education
 education:
-  enable: true
+  enable: false
   title: "Education"
   items:
     - university: "University of Waterloo"
@@ -67,7 +54,7 @@ education:
 
 # experience
 experience:
-  enable: true
+  enable: false
   title: "Experience"
   description: "Over 15+ years of experience working with companies from all over the world. I design & develop digital products to help businesses and improve people's lives."
   button:
@@ -99,46 +86,26 @@ client_and_work:
 
   clients:
     - logo:
-        x: "img/clients/asgardia.png"
-        _2x: "img/clients/asgardia@2x.png"
-      alt: "Asgardia"
-
+        x: "img/companies/bity-logo.png"
+        _2x: "img/companies/bity-logo@2x.png"
+      alt: "Bity"
     - logo:
-        x: "img/clients/earth-2.png"
-        _2x: "img/clients/earth-2@2x.png"
-      alt: "Earth 2.0"
+        x: "img/companies/condensat-logo1.png"
+        _2x: "img/companies/bity-logo@2x.png"
+      alt: "Bity"
 
-    - logo:
-        x: "img/clients/goldline.png"
-        _2x: "img/clients/goldline@2x.png"
-      alt: "Goldline"
-
-    - logo:
-        x: "img/clients/kanba.png"
-        _2x: "img/clients/kanba@2x.png"
-      alt: "Kanba"
-
-    - logo:
-        x: "img/clients/zoo-tv.png"
-        _2x: "img/clients/zoo-tv@2x.png"
-      alt: "Zoo"
-
-    - logo:
-        x: "img/clients/ztos.png"
-        _2x: "img/clients/ztos@2x.png"
-      alt: "Ztos"
-
+    
   works:
     - title: "Bity"
       description: "Bity permet le change entre des crypto-monnaies et des monnaies fiats (Euro et CHF).
-                    Fondé en ... "
+                    Fondé en ..."
       button:
         icon: "icon-arrow-right"
         btnText: "Site Web"
         URL: "https://bity.com/"
       image:
-        x: "img/works/radity-finance.jpg"
-        _2x: "img/works/radity-finance@2x.jpg"
+        x: "img/companies/bity-logo.png"
+        _2x: "img/works/bity-logo@2x.jpg"
       is_even: true
 
     - title: "Swiss Fintech Website"
@@ -165,7 +132,7 @@ client_and_work:
 
 # testimonial
 testimonial:
-  enable: true
+  enable: false
   title: "Testimonials"
   items:
     - name: "Daniel Jordan"
@@ -213,7 +180,7 @@ contact:
 
 # newsletter
 newsletter:
-  enable: true
+  enable: false
   title: "Newsletter subscription"
   success_message: "Successfully subscribed"
   error_message: "Error while subscribing."

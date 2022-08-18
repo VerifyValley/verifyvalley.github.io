@@ -1,4 +1,4 @@
-baseURL = "verifyvalley.github.io"
+baseURL = "verifyvalley.ch"
 languageCode = "en-us"
 theme = "raditian"
 
@@ -69,7 +69,7 @@ theme = "raditian"
 
   [params.footer]
       copyright = "Verify Valley"
-      [params.footer.radity_logo]
-        x = "img/general/design-and-code-radity.png"
-        _2x = "img/general/design-and-code-radity@2x.png"
-        alt = "Design & Code - Radity"
+      #[params.footer.radity_logo]
+      #  x = "img/general/design-and-code-radity.png"
+      #  _2x = "img/general/design-and-code-radity@2x.png"
+      #  alt = "Design & Code - Radity"

@@ -1,15 +1,15 @@
-{{ if .Site.Data.homepage.client_and_work.enable }}
+{{ if .Site.Data.homepage.events.enable }}
 <section id="portfolio" class="section section--border-bottom">
   <div class="container">
     <h2 class=" rad-animation-group rad-fade-down">
-      {{ .Site.Data.homepage.client_and_work.title }}
+      {{ .Site.Data.homepage.events.title }}
     </h2>
     <div class="row row--padded rad-animation-group rad-fade-down">
       <div class="col-12">
         <div class="clients">
-          {{ range .Site.Data.homepage.client_and_work.clients }}
+          {{ range .Site.Data.homepage.events.clients }}
           <div class="clients__item">
-              <a href="{{ .url }}">
+           <!-- <a href="https://radity.com"> -->
               <img
                 class="lozad img-responsive"
                 src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
@@ -23,7 +23,7 @@
         </div>
       </div>
     </div>
-    {{ range $index, $element := .Site.Data.homepage.client_and_work.works }}
+    {{ range $index, $element := .Site.Data.homepage.events.works }}
     <div
       class="row row--padded rad-animation-group rad-fade-down {{ if .is_even }}flex-column-reverse flex-md-row{{ end }}"
     >

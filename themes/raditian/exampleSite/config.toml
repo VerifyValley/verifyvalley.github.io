@@ -1,5 +1,5 @@
 baseURL = "https://raditian-hugo.radity.com/"
-languageCode = "en-us"
+languageCode = "fr-ch"
 theme = "raditian-free-hugo-theme"
 
 # Plugins

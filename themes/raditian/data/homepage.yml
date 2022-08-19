@@ -28,7 +28,7 @@ Grâce au dynamisme de Bity et aux services proposés par la BCN (Banque Cantona
 about:
   enable: true
   title: "Objectifs"
-  content: "Le présent site a pour objectif de présenter :
+  content: "Le présent site a pour objectif de présenter
       <ul>
       <li>Les entreprises constituant cet écosystème, ayant leurs sièges ou un bureau à Neuchâtel</li>
       <li>Faciliter l'accès aux offres d'emplois, aussi bien pour les entreprises que pour les candidats</li>
@@ -212,7 +212,7 @@ events:
       description: ""
       button:
         icon: "icon-arrow-right"
-        btnText: ""
+        btnText: "Site Web"
         URL: "."
       image:
         x: "img/events/bart-logo.png"

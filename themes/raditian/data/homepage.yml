@@ -8,10 +8,10 @@ showcase:
 Grâce au dynamisme de Bity et aux services proposés par la BCN (Banque Cantonale Neuchâteloise), de nombreuses entreprises sont venues se développer à Neuchâtel et ses environs.
 "
   image:
-    x: "img/showcase/showcase.png"
-    _2x: "img/showcase/showcase@2x.png"
+    x: ""
+    _2x: ""
   imageMobile:
-    x: "img/showcase/showcase-mobile.jpg"
+    x: ""
 
   button:
     icon: "icon-mail-fill"
@@ -28,7 +28,7 @@ Grâce au dynamisme de Bity et aux services proposés par la BCN (Banque Cantona
 about:
   enable: true
   title: "Objectifs"
-  content:  "Le présent site a pour objectif de présenter :
+  content: "Le présent site a pour objectif de présenter :
       <ul>
       <li>Les entreprises constituant cet écosystème, ayant leurs sièges ou un bureau à Neuchâtel</li>
       <li>Faciliter l'accès aux offres d'emplois, aussi bien pour les entreprises que pour les candidats</li>
@@ -55,8 +55,8 @@ education:
 # experience
 experience:
   enable: false
-  title: "Experience"
-  description: "Over 15+ years of experience working with companies from all over the world. I design & develop digital products to help businesses and improve people's lives."
+  title: "Partenaires"
+  description: "Plusieurs partenaires pour accompagner le développement"
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
@@ -70,6 +70,10 @@ experience:
     - title: "Sr. Front-End Developer"
       company: "Radity"
       duration: "Feb 2011 - Sep 2019"
+      button:
+        icon: "icon-linkedin-fill"
+        btnText: "Linkedin"
+        URL: "https://www.linkedin.com/company/radity/"
 
     - title: "Sr. Front-End Developer"
       company: "Textic"
@@ -78,6 +82,10 @@ experience:
     - title: "Jr. Front-End Developer"
       company: "Cyberse"
       duration: "Jun 2009 - Mar 2010"
+
+
+
+
 
 # Client & Work
 client_and_work:
@@ -89,16 +97,24 @@ client_and_work:
         x: "img/companies/bity-logo.png"
         _2x: "img/companies/bity-logo@2x.png"
       alt: "Bity"
+      url: "https://bity.com/"
     - logo:
         x: "img/companies/condensat-logo1.png"
         _2x: "img/companies/condensat-logo.png"
       alt: "Condensat"
+      url: "https://www.condensat.tech/"
     - logo:
         x: "img/companies/hodling-logo-resize.png"
         _2x: "img/companies/hodling-logo-resize.png"
       alt: "Hodling"
+      url: "https://hodling.ch/"
+    - logo:
+        x: "img/companies/mubiz-logo.png"
+        _2x: "img/companies/mubiz-logo.png"
+      alt: "Hodling"
+      url: "https://mubiz.com/"
 
-    
+
   works:
     - title: "Bity"
       description: "Bity permet le change entre des crypto-monnaies et des monnaies fiats (Euro et CHF).
@@ -118,7 +134,7 @@ client_and_work:
       button:
         icon: "icon-arrow-right"
         btnText: "Site Web"
-        URL: "#"
+        URL: "https://hodling.ch/"
       image:
         x: "img/companies/hodling-logo-resize.png"
         _2x: "img/companies/hodling-logo-resize.png"
@@ -129,20 +145,101 @@ client_and_work:
       button:
         icon: "icon-arrow-right"
         btnText: "Site Web"
-        URL: "#"
+        URL: "https://www.condensat.tech/"
       image:
         x: "img/companies/condensat-logo1.png"
         _2x: "img/companies/condensat-logo.png"
       is_even: true
 
+    - title: "Mubiz"
+      description: "Mubiz permet aux entreprises d'acccepter les paiements en crypto-monnaies (factures, booutiques et e-commerce) en étant créditées directement sur leurs comptes bancaires en EUR ou CHF. "
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Site Web"
+        URL: "https://mubiz.com/"
+      image:
+        x: "img/companies/mubiz-logo.png"
+        _2x: "img/companies/condensat-logo.png"
+      is_even: false
+
+
+partners:
+  title: "Partenaires"
+  enable: true
+
+  works:
+    - title: "Banque Cantonale de Neuchatel"
+      description: ""
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Site Web"
+        URL: "https://bcn.ch/"
+      image:
+        x: "img/partners/bcn-logo.png"
+        _2x: "img/partners/bity-logo@2x.jpg"
+      is_even: true
+
+    - title: "Leax Avocats Sàrl"
+      description: ""
+
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Site Web"
+        URL: "https://leax.ch/"
+      image:
+        x: "img/partners/leax-logo.png"
+        _2x: "img/partners/leax-logo.png"
+      is_even: false
+
+    - title: "ReviXpert"
+      description: ""
+
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Site Web"
+        URL: "https://www.revixpert.ch/"
+      image:
+        x: "img/partners/revixpert-logo.png"
+        _2x: "img/partners/revixpert-logo.png"
+      is_even: true
+
+events:
+  title: "Evénements"
+  enable: true
+
+  works:
+    - title: "B2Beer"
+      description: ""
+      button:
+        icon: "icon-arrow-right"
+        btnText: ""
+        URL: "."
+      image:
+        x: "img/events/bart-logo.png"
+        _2x: "img/events/bart-logo.png"
+      is_even: true
+
+    - title: "Paradigme Bitcoin"
+      description: ""
+
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Site Web"
+        URL: "http://ludom.cc/index.php/2022/05/09/le-paradigme-bitcoin-neuchatel-24-juin-2022/"
+      image:
+        x: "img/events/paradigme-logo.png"
+        _2x: "img/partners/paradigme-logo.png"
+      is_even: false
+
+
 # testimonial
 testimonial:
   enable: false
-  title: "Testimonials"
+  title: "Partenaires"
   items:
-    - name: "Daniel Jordan"
-      position: "Phonet, CEO"
-      content: "Cold calling can be a great way to generate quality leads. You get to speak to the gatekeepers and stakeholders, and you get a great insight into their requirements and influences. But cold calling is an art-form. It can be daunting, it’s always a lot of work, and you always need to make a good impression."
+    - name: "Banque Cantonale de Neuchatel"
+      position: ""
+      content: ""
       image:
         x: "img/testimonials/daniel-jordan.jpg"
         _2x: "img/testimonials/daniel-jordan@2x.jpg"
@@ -163,7 +260,7 @@ testimonial:
 
 # contact
 contact:
-  enable: true
+  enable: false
   title: "Contact"
   form:
     action: "#"

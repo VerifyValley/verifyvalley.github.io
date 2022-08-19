@@ -1,5 +1,5 @@
-baseURL = "https://verifyvalley.ch"
-languageCode = "fr-ch"
+baseURL = "https://verifyvalley.github.io"
+languageCode = "en-us"
 theme = "raditian"
 
 # Plugins

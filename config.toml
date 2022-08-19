@@ -1,5 +1,5 @@
-baseURL = "verifyvalley.ch"
-languageCode = "en-us"
+baseURL = "https://verifyvalley.ch"
+languageCode = "fr-ch"
 theme = "raditian"
 
 # Plugins
@@ -26,35 +26,36 @@ theme = "raditian"
 [menu]
 
   [[menu.header]]
-  name = "About"
+  name = "Objectifs"
   URL = "#about"
   weight = 2
 
   [[menu.header]]
-  name = "Portfolio"
+  name = "Acteurs"
   URL = "#portfolio"
   weight = 3
 
   [[menu.header]]
-  name = "Contact"
+  name = "Partenaires"
   URL = "#contact"
   weight = 4
 
 
   [[menu.footer]]
-  name = "About"
-  URL = "#about"
-  weight = 2
+     name = "Objectifs"
+     URL = "#about"
+     weight = 2
 
   [[menu.footer]]
-  name = "Portfolio"
-  URL = "#portfolio"
-  weight = 3
+   name = "Acteurs"
+   URL = "#portfolio"
+   weight = 3
 
   [[menu.footer]]
-  name = "Contact"
+  name = "Partenaires"
   URL = "#contact"
   weight = 4
+
 
 
 [params]

@@ -3,38 +3,35 @@ showcase:
   enable: true
   title: "Verify Valley"
   subtitle: "Don't trust, Verify"
-  description: "la VerifyValley est un ensemble d'entreprises et d'acteurs économiques, réunis autour du développement des crypto-monnaies, dont bitcoin, dans le Canton de Neuchâtel.
-
-Grâce au dynamisme de Bity et aux services proposés par la BCN (Banque Cantonale Neuchâteloise), de nombreuses entreprises sont venues se développer à Neuchâtel et ses environs.
+  description: "La VerifyValley est un ensemble d'entreprises et d'acteurs économiques, réunis autour du développement des crypto-monnaies, dont bitcoin, dans le Canton de Neuchâtel.
+Grâce au dynamisme de Bity et aux services proposés par la Banque Cantonale Neuchâteloise, de nombreuses entreprises sont venues se développer à Neuchâtel et ses environs.
 "
   image:
-    x: ""
-    _2x: ""
+    x: "img/verifyvalley.jpg"
+    _2x: "img/verifyvalley@2x.jpg"
   imageMobile:
     x: ""
 
   button:
     icon: "icon-mail-fill"
     btnText: "Contact"
-    URL: "https://verifyvalley.ch/contact"
+    URL: "https://verifyvalley.ch/#contact"
 
   socialLinks:
-
     - icon: "github"
       URL: "https://github.com/verifyvalley/"
-
 
 # about
 about:
   enable: true
   title: "Objectifs"
-  content: "Le présent site a pour objectif de présenter
+  content: "Le présent site a pour objectif de :
       <ul>
-      <li>Les entreprises constituant cet écosystème, ayant leurs sièges ou un bureau à Neuchâtel</li>
+      <li>Présenter les entreprises constituant cet écosystème, ayant leurs sièges ou un bureau à Neuchâtel</li>
       <li>Faciliter l'accès aux offres d'emplois, aussi bien pour les entreprises que pour les candidats</li>
       <li>Informer sur les événements organisés par ces entreprises (Conférences, Meet-up, Banquets du Coin, ...)</li>
       </ul>
-      Ce site se souhaite ouvert (license MIT) et collaboratif (proposition de contenu via Github)."
+      Ce site se souhaite ouvert (license MIT) et collaboratif (proposition de contenu via Github par Pull Request)."
   image:
     x: "img/verifyvalley.jpg"
     _2x: "img/verifyvalley@2x.jpg"
@@ -97,23 +94,37 @@ client_and_work:
         x: "img/companies/bity-logo.png"
         _2x: "img/companies/bity-logo@2x.png"
       alt: "Bity"
-      url: "https://bity.com/"
+      url: "https://bity.com"
     - logo:
-        x: "img/companies/condensat-logo1.png"
+        x: "img/companies/condensat-logo.png"
         _2x: "img/companies/condensat-logo.png"
       alt: "Condensat"
-      url: "https://www.condensat.tech/"
+      url: "https://www.condensat.tech"
     - logo:
         x: "img/companies/hodling-logo-resize.png"
         _2x: "img/companies/hodling-logo-resize.png"
       alt: "Hodling"
-      url: "https://hodling.ch/"
+      url: "https://hodling.ch"
+    - logo:
+        x: "img/companies/mt-pelerin-logo.png"
+        _2x: "img/companies/mt-pelerin-logo.png"
+      alt: "MtPelerin"
+      url: "https://mtpelerin.com"
     - logo:
         x: "img/companies/mubiz-logo.png"
         _2x: "img/companies/mubiz-logo.png"
-      alt: "Hodling"
-      url: "https://mubiz.com/"
-
+      alt: "Mubiz"
+      url: "https://mubiz.com"
+    - logo:
+        x: "img/companies/peach-logo.png"
+        _2x: "img/companies/peach-logo.png"
+      alt: "Peach"
+      url: "https://peachbitcoin.com"
+    - logo:
+        x: "img/companies/relai-logo.png"
+        _2x: "img/companies/relai-logo.png"
+      alt: "Peach"
+      url: "https://relai.app"
 
   works:
     - title: "Bity"
@@ -122,10 +133,29 @@ client_and_work:
       button:
         icon: "icon-arrow-right"
         btnText: "Site Web"
-        URL: "https://bity.com/"
+        URL: "https://bity.com"
       image:
         x: "img/companies/bity-logo.png"
-        _2x: "img/works/bity-logo@2x.jpg"
+        _2x: "img/works/bity-logo.png"
+      address: "Bity SA - Rue des Usines 44 - 2000 Neuchâtel"
+      twitter_url: "https://twitter.com/bity"
+      linkedin_url: "https://www.linkedin.com/company/bity"
+      github_url: "https://www.github.com/BitySA"
+      is_even: true
+
+    - title: "Condensat"
+      description: "Condensat permet le stockage de bitcoin"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Site Web"
+        URL: "https://www.condensat.tech"
+      image:
+        x: "img/companies/condensat-logo.png"
+        _2x: "img/companies/condensat.png"
+      address: "Condensat SA - c/o LEAX Avocats Sàrl - Rue des Beaux-Arts 8 - 2000 Neuchâtel"
+      twitter_url: "https://twitter.com/condensat_bank"
+      linkedin_url: "https://www.linkedin.com/company/condensat-technologies/"
+      github_url: "https://www.github.com/condensat"
       is_even: true
 
     - title: "Hodling SA"
@@ -134,33 +164,88 @@ client_and_work:
       button:
         icon: "icon-arrow-right"
         btnText: "Site Web"
-        URL: "https://hodling.ch/"
+        URL: "https://hodling.ch"
       image:
         x: "img/companies/hodling-logo-resize.png"
         _2x: "img/companies/hodling-logo-resize.png"
+      address: "Holding SA - c/o LEAX Avocats Sàrl - Rue des Beaux-Arts 8 - 2000 Neuchâtel"
       is_even: false
 
-    - title: "Condensat"
-      description: "Condensat permet le stockage de bitcoin"
+    - title: "MtPelerin"
+      description: ""
       button:
         icon: "icon-arrow-right"
         btnText: "Site Web"
-        URL: "https://www.condensat.tech/"
+        URL: "https://mtpelerin.com"
       image:
-        x: "img/companies/condensat-logo1.png"
-        _2x: "img/companies/condensat-logo.png"
-      is_even: true
+        x: "img/companies/mt-pelerin-logo.png"
+        _2x: "img/companies/mt-pelerin-logo.png"
+      address: ""
+      twitter_url: ""
+      linkedin_url: ""
+      github_url: ""
+      is_even: false
 
     - title: "Mubiz"
       description: "Mubiz permet aux entreprises d'acccepter les paiements en crypto-monnaies (factures, booutiques et e-commerce) en étant créditées directement sur leurs comptes bancaires en EUR ou CHF. "
       button:
         icon: "icon-arrow-right"
         btnText: "Site Web"
-        URL: "https://mubiz.com/"
+        URL: "https://mubiz.com"
       image:
         x: "img/companies/mubiz-logo.png"
-        _2x: "img/companies/condensat-logo.png"
+        _2x: "img/companies/mubiz-logo.png"
+      address: "Mubiz SA - c/o LEAX Avocats Sàrl - Rue des Beaux-Arts 8 - 2000 Neuchâtel"
+      twitter_url: "https://twitter.com/mubiz_fr"
+      linkedin_url: "https://www.linkedin.com/company/mubizsa/"
+      github_url: "https://www.github.com/mubizinc"
       is_even: false
+
+    - title: "PeachBitcoin"
+      description: ""
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Site Web"
+        URL: "https://peachbitcoin.com"
+      image:
+        x: "img/companies/peach-logo.png"
+        _2x: "img/companies/peach-logo.png"
+      address: "Peach Sàrl - c/o LEAX Avocats Sàrl - Rue des Beaux-Arts 8 - 2000 Neuchâtel"
+      twitter_url: ""
+      linkedin_url: ""
+      github_url: ""
+      is_even: false
+
+    - title: "Relai"
+      description: ""
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Site Web"
+        URL: "https://relai.app"
+      image:
+        x: "img/companies/relai-logo.jpeg"
+        _2x: "img/companies/relai-logo.jpeg"
+      address: ""
+      twitter_url: ""
+      linkedin_url: ""
+      github_url: ""
+      is_even: false
+
+    - title: "StackinSat"
+      description: ""
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Site Web"
+        URL: "https://stackinsat.com"
+      image:
+        x: "img/companies/relai-logo.jpeg"
+        _2x: "img/companies/relai-logo.jpeg"
+      address: ""
+      twitter_url: ""
+      linkedin_url: ""
+      github_url: ""
+      is_even: false
+
 
 
 partners:
@@ -169,35 +254,34 @@ partners:
 
   works:
     - title: "Banque Cantonale de Neuchatel"
-      description: ""
+      description: "La Banque cantonale neuchâteloise est la banque cantonale du canton de Neuchâtel, en Suisse. En tant que banque universelle, elle pratique les activités de banque de détail, de banque privée, de gestion d'actifs."
       button:
         icon: "icon-arrow-right"
         btnText: "Site Web"
-        URL: "https://bcn.ch/"
+        URL: "https://bcn.ch"
       image:
         x: "img/partners/bcn-logo.png"
-        _2x: "img/partners/bity-logo@2x.jpg"
+        _2x: "img/partners/bity-logo.png"
       is_even: true
 
     - title: "Leax Avocats Sàrl"
-      description: ""
-
+      description: "Basée à Neuchâtel, Leax est une étude d'avocats spécialisée en droit des affaires et en fiscalité à même de vous conseiller à toutes les étapes de votre activité commerciale et de défendre vos droits devant les tribunaux étatiques ou arbitraux et devant toutes les autorités suisses."
       button:
         icon: "icon-arrow-right"
         btnText: "Site Web"
-        URL: "https://leax.ch/"
+        URL: "https://leax.ch"
       image:
         x: "img/partners/leax-logo.png"
         _2x: "img/partners/leax-logo.png"
       is_even: false
 
     - title: "ReviXpert"
-      description: ""
+      description: "Agréée comme « expert-réviseur », reviXpert excelle dans les services fiduciaires – audit, révision, fiscalité, conseil économique. L’existence de reviXpert SA se fonde sur plusieurs décennies d’expérience acquise en matière de services intégrés au sein des « Big-4 ». Constituée en 2016, agréée par l’Autorité fédérale de surveillance en matière de révision comme « expert-réviseur » (no 505133)."
 
       button:
         icon: "icon-arrow-right"
         btnText: "Site Web"
-        URL: "https://www.revixpert.ch/"
+        URL: "https://www.revixpert.ch"
       image:
         x: "img/partners/revixpert-logo.png"
         _2x: "img/partners/revixpert-logo.png"
@@ -209,7 +293,7 @@ events:
 
   works:
     - title: "B2Beer"
-      description: ""
+      description: "Rencontre informelle autour de Bitcoin et des cryptomonnaies au B’Art, brasserie neuchâteloise - Tous les jeudis à partir de 18h - Brasserie B’Art, 5 rue Jacques-Louis de Pourtalès à Neuchâtel"
       button:
         icon: "icon-arrow-right"
         btnText: "Site Web"
@@ -228,7 +312,7 @@ events:
         URL: "http://ludom.cc/index.php/2022/05/09/le-paradigme-bitcoin-neuchatel-24-juin-2022/"
       image:
         x: "img/events/paradigme-logo.png"
-        _2x: "img/partners/paradigme-logo.png"
+        _2x: "img/events/paradigme-logo.png"
       is_even: false
 
 
@@ -241,8 +325,8 @@ testimonial:
       position: ""
       content: ""
       image:
-        x: "img/testimonials/daniel-jordan.jpg"
-        _2x: "img/testimonials/daniel-jordan@2x.jpg"
+        x: "img/partners/bcn-logo.png"
+        _2x: "img/partners/bcn-logo.png"
 
     - name: "Jonathan Peters"
       position: "Textic, CEO"
@@ -275,7 +359,7 @@ contact:
     email: '<a href="mailto:team@radity.com">team@radity.com</a>'
   address:
     title: "Address"
-    address: "Radity GmbH<br />Max-Bill-Platz 5, 8050 Zürich"
+    address: "Neuchatel"
   button:
     icon: "icon-mail-fill"
     btnText: "Send Message"

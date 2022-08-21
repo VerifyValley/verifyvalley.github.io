@@ -2,9 +2,9 @@
 
 # verifyvalley.github.io
 
-Les modifications doivent se faire dans `themes/raditian/data`
+Les modifications doivent se faire dans `themes/hugo-universal/data`
 
-Thème: [raditian](https://github.com/radity/raditian-free-hugo-theme)
+Thème: [hugo-universal-theme](https://github.com/devcows/hugo-universal-theme)
 
 
 ## Utilisation - Docker

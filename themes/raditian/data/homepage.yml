@@ -25,15 +25,14 @@ Grâce au dynamisme de Bity et aux services proposés par la Banque Cantonale Ne
 about:
   enable: true
   title: "Objectifs"
-  content: "Le présent site a pour objectif de :
-      <ul>
+  content: "<ul>
       <li>Présenter les entreprises constituant cet écosystème, ayant leurs sièges ou un bureau à Neuchâtel</li>
       <li>Faciliter l'accès aux offres d'emplois, aussi bien pour les entreprises que pour les candidats</li>
       <li>Informer sur les événements organisés par ces entreprises (Conférences, Meet-up, Banquets du Coin, ...)</li>
       </ul>
       Ce site se souhaite ouvert (license MIT) et collaboratif (proposition de contenu via Github par Pull Request)."
   image:
-    x: "img/verifyvalley.jpg"
+    x: "img/verifyvalley-logo.jpg"
     _2x: "img/verifyvalley@2x.jpg"
 
 # education
@@ -111,8 +110,8 @@ client_and_work:
       alt: "MtPelerin"
       url: "https://mtpelerin.com"
     - logo:
-        x: "img/companies/mubiz-logo.png"
-        _2x: "img/companies/mubiz-logo.png"
+        x: "img/companies/mubiz-logo-big.png"
+        _2x: "img/companies/mubiz-logo-big.png"
       alt: "Mubiz"
       url: "https://mubiz.com"
     - logo:
@@ -121,8 +120,8 @@ client_and_work:
       alt: "Peach"
       url: "https://peachbitcoin.com"
     - logo:
-        x: "img/companies/relai-logo.png"
-        _2x: "img/companies/relai-logo.png"
+        x: "img/companies/relai-logo.jpeg"
+        _2x: "img/companies/relai-logo.jpeg"
       alt: "Peach"
       url: "https://relai.app"
 
@@ -136,7 +135,7 @@ client_and_work:
         URL: "https://bity.com"
       image:
         x: "img/companies/bity-logo.png"
-        _2x: "img/works/bity-logo.png"
+        _2x: "img/works/bity-logo@2x.png"
       address: "Bity SA - Rue des Usines 44 - 2000 Neuchâtel"
       twitter_url: "https://twitter.com/bity"
       linkedin_url: "https://www.linkedin.com/company/bity"
